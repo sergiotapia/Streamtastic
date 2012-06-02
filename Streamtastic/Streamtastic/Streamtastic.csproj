@@ -40,6 +40,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Abstract\IStreamRepository.cs" />
+    <Compile Include="Concrete\Own3dStreamRepository.cs" />
+    <Compile Include="Concrete\TwitchtvStreamRepository.cs" />
+    <Compile Include="Models\StreamModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
