@@ -74,14 +74,9 @@ Where a native API is implemented, we use that. However some websites do not off
 HTMLAgilityPack and ScrappySharp.
 
 
-DISCLAIMER
+Released under the MIT License
 ------------------
-I provide no warranties or licenses, etc. Just use it however you please. I would appreciate a mention though. :)
-
-
-LICENSE
-------------------
-Copyright (c) <2012> <Sergio Tapia Gutierrez>
+Copyright (c) 2012 Sergio Tapia Gutierrez
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software 
 and associated documentation files (the "Software"), to deal in the Software without restriction, 
