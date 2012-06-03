@@ -17,9 +17,8 @@ namespace Streamtastic.Demo
 
             foreach (var stream in topStreamers)
             {
-                Console.WriteLine(stream.Title, stream.ViewerCount);
+                Console.WriteLine(String.Format("{0} - Viewers: {1}", stream.Title, stream.ViewerCount));
             }
-
 
             Console.ReadKey(true);
         }
