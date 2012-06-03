@@ -1,7 +1,7 @@
 Streamtastic - eSports Streaming Library
 ============
 
-Streamtastic is a .NET (C#) library that provides information for streams hosted on a wide variety of websites including Own3d and Twitch.tv.
+Streamtastic is a .NET (C#) library that provides information for streams hosted on a wide variety of websites including Own3d and Twitch.tv API.
 
 Just invoke Streamtastic methods, and you are returned simple to use C# POCO classes. Couldn't be easier!
 
