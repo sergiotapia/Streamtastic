@@ -20,5 +20,10 @@ namespace Streamtastic
         {
             return _iStreamRepository.FindTopViewedStreams();
         }
+
+        public List<StreamModel> FindTopViewedStreamsByGame(string gameName)
+        {
+            return _iStreamRepository.FindTopViewedStreamsByGame(gameName);
+        }
     }
 }

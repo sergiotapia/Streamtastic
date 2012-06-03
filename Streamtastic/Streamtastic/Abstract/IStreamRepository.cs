@@ -9,5 +9,6 @@ namespace Streamtastic.Abstract
     public interface IStreamRepository
     {
         List<StreamModel> FindTopViewedStreams();
+        List<StreamModel> FindTopViewedStreamsByGame(string gameName);
     }
 }

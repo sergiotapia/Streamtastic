@@ -13,5 +13,10 @@ namespace Streamtastic.Concrete
         {
             throw new NotImplementedException();
         }
+
+        public List<StreamModel> FindTopViewedStreamsByGame(string gameName)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
