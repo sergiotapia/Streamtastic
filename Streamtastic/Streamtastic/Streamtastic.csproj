@@ -50,6 +50,7 @@
     <Compile Include="Abstract\IStreamRepository.cs" />
     <Compile Include="Concrete\Own3dStreamRepository.cs" />
     <Compile Include="Concrete\TwitchtvStreamRepository.cs" />
+    <Compile Include="Helpers\SanitizeHelper.cs" />
     <Compile Include="Models\StreamModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="StreamFinder.cs" />

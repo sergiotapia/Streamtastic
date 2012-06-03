@@ -18,7 +18,7 @@ namespace Streamtastic
 
         public List<StreamModel> FindTopViewedStreams()
         {
-            throw new NotImplementedException();
+            return _iStreamRepository.FindTopViewedStreams();
         }
     }
 }
