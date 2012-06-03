@@ -31,6 +31,7 @@ namespace Streamtastic.Concrete
                 //Let's build out the Own3d model.
                 StreamModel model = new StreamModel();
                 model.Title = stream.CssSelect("a.small_tn_title_live").First().InnerText.Trim();
+                model.ChannelUrl = "http://www.own3d.tv" + stream.CssSelect("a.small_tn_title_live").First().GetAttributeValue("href", "");
                 model.ChannelOwner = stream.CssSelect("a.small_tn_info").ToList()[1].InnerText.Trim();
                 model.ViewerCount = SanitizeHelper.SanitizeViewCount(stream.CssSelect("span.small_tn_viewers").First().InnerText);
                 model.ThumbnailPreviewUrl = stream.CssSelect("img.previewTN").First().GetAttributeValue("src", "");

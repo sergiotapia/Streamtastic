@@ -11,6 +11,8 @@ namespace Streamtastic.Models
 
         public string ChannelOwner { get; set; }
 
+        public string ChannelUrl { get; set; }
+
         public string ThumbnailPreviewUrl { get; set; }
 
         public int ViewerCount { get; set; }
