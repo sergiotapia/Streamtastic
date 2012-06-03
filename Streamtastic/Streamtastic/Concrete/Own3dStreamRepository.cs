@@ -9,9 +9,13 @@ namespace Streamtastic.Concrete
 {
     public class Own3dStreamRepository : IStreamRepository
     {
-        public List<StreamModel> FindMostViewedStreams()
+        public List<StreamModel> FindTopViewedStreams()
         {
-            throw new NotImplementedException();
+            //http://www.own3d.tv/live
+            var topStreams = new List<StreamModel>();
+
+
+            return topStreams;
         }
     }
 }

@@ -8,6 +8,6 @@ namespace Streamtastic.Abstract
 {
     public interface IStreamRepository
     {
-        List<StreamModel> FindMostViewedStreams();
+        List<StreamModel> FindTopViewedStreams();
     }
 }

@@ -5,10 +5,17 @@ using System.Text;
 using Streamtastic.Abstract;
 using Streamtastic.Models;
 
-namespace Streamtastic.Concrete
+namespace Streamtastic
 {
-    public class TwitchtvStreamRepository : IStreamRepository
+    public class StreamFinder
     {
+        private readonly IStreamRepository _iStreamRepository;
+
+        public StreamFinder(IStreamRepository iStreamRepository)
+        {
+            _iStreamRepository = iStreamRepository;
+        }
+
         public List<StreamModel> FindTopViewedStreams()
         {
             throw new NotImplementedException();
