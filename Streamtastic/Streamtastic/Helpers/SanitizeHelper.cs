@@ -22,5 +22,16 @@ namespace Streamtastic.Helpers
 
             return val;
         }
+
+        public static string SanitizeThumbnailUrlTwitchtv(string rawThumbnailUrl, string channelOwner)
+        {
+            if (rawThumbnailUrl == "http://www-cdn.jtvnw.net/images/0px.gif")
+            {
+                string owner = channelOwner.ToLower();
+                return String.Format("http://static-cdn.jtvnw.net/previews/live_user_{0}-320x240.jpg", owner);
+            }
+
+            return rawThumbnailUrl;
+        }
     }
 }

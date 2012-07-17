@@ -16,5 +16,6 @@ namespace Streamtastic.Models
         public string ThumbnailPreviewUrl { get; set; }
 
         public int ViewerCount { get; set; }
+
     }
 }

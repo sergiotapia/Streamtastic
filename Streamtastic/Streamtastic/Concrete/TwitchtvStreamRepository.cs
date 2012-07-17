@@ -4,6 +4,8 @@ using System.Linq;
 using System.Net;
 using System.Text;
 using System.Xml.Linq;
+using HtmlAgilityPack;
+using ScrapySharp.Extensions;
 using Streamtastic.Abstract;
 using Streamtastic.Models;
 
@@ -23,9 +25,9 @@ namespace Streamtastic.Concrete
                                       {
                                           Title = stream.Element("title").Value,
                                           ViewerCount = Convert.ToInt32(stream.Element("channel_count").Value),
-                                          ThumbnailPreviewUrl = stream.Element("channel").Element("screen_cap_url_medium").Value,
-                                          ChannelUrl = stream.Element("channel").Element("channel_url").Value,
                                           ChannelOwner = stream.Element("channel").Element("login").Value,
+                                          ThumbnailPreviewUrl = Helpers.SanitizeHelper.SanitizeThumbnailUrlTwitchtv(stream.Element("channel").Element("screen_cap_url_medium").Value, stream.Element("channel").Element("login").Value),
+                                          ChannelUrl = stream.Element("channel").Element("channel_url").Value
                                       }).ToList<StreamModel>();
 
             return streams;
@@ -33,23 +35,29 @@ namespace Streamtastic.Concrete
 
         public List<StreamModel> FindTopViewedStreamsByGame(string gameName)
         {
-            string apiEndpoint = "http://api.justin.tv/api/stream/list.xml?category=gaming";
+            string url = String.Format("http://www.twitch.tv/directory/{0}", gameName);
 
             var topStreams = new List<StreamModel>();
-            var xmlDocument = XDocument.Load(apiEndpoint);
 
-            var streams = (from stream in xmlDocument.Descendants("stream")
-                           where stream.Element("meta_game") != null && stream.Element("meta_game").Value == gameName
-                           select new StreamModel()
-                           {
-                               Title = stream.Element("title").Value,
-                               ViewerCount = Convert.ToInt32(stream.Element("channel_count").Value),
-                               ThumbnailPreviewUrl = stream.Element("channel").Element("screen_cap_url_medium").Value,
-                               ChannelUrl = stream.Element("channel").Element("channel_url").Value,
-                               ChannelOwner = stream.Element("channel").Element("login").Value,
-                           }).ToList<StreamModel>();
+            HtmlWeb web = new HtmlWeb();
+            HtmlDocument htmlDoc = web.Load(url);
+            var html = htmlDoc.DocumentNode;
 
-            return streams;
+            var container = html.CssSelect("div.video_grid").First();
+            var streamElements = container.CssSelect("div.video");
+
+            foreach (var streamElement in streamElements)
+            {
+                StreamModel streamModel = new StreamModel();
+                streamModel.Title = streamElement.CssSelect("p.title").First().InnerText;
+                streamModel.ChannelOwner = streamElement.CssSelect("p.channelname > a").First().InnerText;
+                streamModel.ViewerCount = Convert.ToInt32(streamElement.CssSelect("span.channel_count").First().InnerText.Replace(",", ""));
+                streamModel.ThumbnailPreviewUrl = Helpers.SanitizeHelper.SanitizeThumbnailUrlTwitchtv(streamElement.CssSelect("img.cap").First().GetAttributeValue("src", ""), streamModel.ChannelOwner);
+                streamModel.ChannelUrl = "http://www.twitch.tv" + streamElement.CssSelect("a.thumb").First().GetAttributeValue("href", "");
+
+                topStreams.Add(streamModel);
+            }
+            return topStreams;
         }
     }
 }

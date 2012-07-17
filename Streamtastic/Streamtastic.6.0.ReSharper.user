@@ -1,0 +1,171 @@
+<Configuration>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="DC70B7E8-57ED-4D87-865F-23794E396DAA/d:Helpers/f:SanitizeHelper.cs" caret="302" fromTop="6" />
+      <File id="DC70B7E8-57ED-4D87-865F-23794E396DAA/f:README.md" caret="1220" fromTop="14" />
+      <File id="DC70B7E8-57ED-4D87-865F-23794E396DAA/d:Models/f:StreamModel.cs" caret="415" fromTop="18" />
+      <File id="DC70B7E8-57ED-4D87-865F-23794E396DAA/d:Abstract/f:IStreamRepository.cs" caret="280" fromTop="11" />
+      <File id="DC70B7E8-57ED-4D87-865F-23794E396DAA/f:StreamFinder.cs" caret="710" fromTop="18" />
+      <File id="A7471E35-9D90-41D2-952C-062D3CAE22C6/f:Program.cs" caret="1770" fromTop="10" />
+      <File id="DC70B7E8-57ED-4D87-865F-23794E396DAA/d:Concrete/f:Own3dStreamRepository.cs" caret="3005" fromTop="10" />
+      <File id="DC70B7E8-57ED-4D87-865F-23794E396DAA/d:Concrete/f:TwitchtvStreamRepository.cs" caret="1459" fromTop="20" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="DC70B7E8-57ED-4D87-865F-23794E396DAA/f:README.md" caret="310" fromTop="5" />
+      <File id="DC70B7E8-57ED-4D87-865F-23794E396DAA/f:README.md" caret="312" fromTop="7" />
+      <File id="DC70B7E8-57ED-4D87-865F-23794E396DAA/f:README.md" caret="574" fromTop="7" />
+      <File id="DC70B7E8-57ED-4D87-865F-23794E396DAA/f:README.md" caret="1787" fromTop="19" />
+      <File id="DC70B7E8-57ED-4D87-865F-23794E396DAA/f:README.md" caret="1936" fromTop="23" />
+      <File id="DC70B7E8-57ED-4D87-865F-23794E396DAA/d:Concrete/f:TwitchtvStreamRepository.cs" caret="452" fromTop="8" />
+      <File id="DC70B7E8-57ED-4D87-865F-23794E396DAA/d:Concrete/f:TwitchtvStreamRepository.cs" caret="631" fromTop="18" />
+      <File id="A7471E35-9D90-41D2-952C-062D3CAE22C6/f:Program.cs" caret="2211" fromTop="22" />
+      <File id="A7471E35-9D90-41D2-952C-062D3CAE22C6/f:Program.cs" caret="2211" fromTop="15" />
+      <File id="A7471E35-9D90-41D2-952C-062D3CAE22C6/f:Program.cs" caret="2211" fromTop="9" />
+      <File id="A7471E35-9D90-41D2-952C-062D3CAE22C6/f:Program.cs" caret="2211" fromTop="29" />
+      <File id="DC70B7E8-57ED-4D87-865F-23794E396DAA/d:Concrete/f:TwitchtvStreamRepository.cs" caret="1415" fromTop="20" />
+      <File id="DC70B7E8-57ED-4D87-865F-23794E396DAA/d:Concrete/f:TwitchtvStreamRepository.cs" caret="1341" fromTop="11" />
+      <File id="A7471E35-9D90-41D2-952C-062D3CAE22C6/f:Program.cs" caret="2211" fromTop="9" />
+      <File id="A7471E35-9D90-41D2-952C-062D3CAE22C6/f:Program.cs" caret="2212" fromTop="19" />
+      <File id="A7471E35-9D90-41D2-952C-062D3CAE22C6/f:Program.cs" caret="2211" fromTop="9" />
+      <File id="DC70B7E8-57ED-4D87-865F-23794E396DAA/d:Models/f:StreamModel.cs" caret="425" fromTop="20" />
+      <File id="DC70B7E8-57ED-4D87-865F-23794E396DAA/d:Concrete/f:TwitchtvStreamRepository.cs" caret="1698" fromTop="12" />
+      <File id="DC70B7E8-57ED-4D87-865F-23794E396DAA/d:Concrete/f:TwitchtvStreamRepository.cs" caret="2797" fromTop="14" />
+      <File id="DC70B7E8-57ED-4D87-865F-23794E396DAA/d:Concrete/f:TwitchtvStreamRepository.cs" caret="2814" fromTop="20" />
+      <File id="A7471E35-9D90-41D2-952C-062D3CAE22C6/f:Program.cs" caret="2211" fromTop="23" />
+      <File id="A7471E35-9D90-41D2-952C-062D3CAE22C6/f:Program.cs" caret="839" fromTop="5" />
+      <File id="A7471E35-9D90-41D2-952C-062D3CAE22C6/f:Program.cs" caret="1517" fromTop="18" />
+      <File id="DC70B7E8-57ED-4D87-865F-23794E396DAA/d:Concrete/f:TwitchtvStreamRepository.cs" caret="2720" fromTop="20" />
+      <File id="A7471E35-9D90-41D2-952C-062D3CAE22C6/f:Program.cs" caret="1906" fromTop="31" />
+      <File id="A7471E35-9D90-41D2-952C-062D3CAE22C6/f:Program.cs" caret="339" fromTop="8" />
+    </RecentEdits>
+  </RecentFiles>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="CSharpCodeCompletionContext">
+      <Item value="var" priority="255" />
+      <Item value="new" priority="191" />
+      <Item value="List" priority="29" />
+      <Item value="StreamModel`0" priority="127" />
+      <Item value="return" priority="223" />
+      <Item value="topStreams" priority="159" />
+      <Item value="web" priority="31" />
+      <Item value="url" priority="31" />
+      <Item value="htmlDoc" priority="31" />
+      <Item value="_iStreamRepository" priority="31" />
+      <Item value="container" priority="159" />
+      <Item value="c" priority="31" />
+      <Item value="foreach" priority="63" />
+      <Item value="StreamModel" priority="86" />
+      <Item value="model" priority="159" />
+      <Item value="stream" priority="290" />
+      <Item value="public" priority="31" />
+      <Item value="int" priority="62" />
+      <Item value="string" priority="158" />
+      <Item value="Helpers" priority="31" />
+      <Item value="SanitizeHelper`0" priority="26" />
+      <Item value="rawViewCount" priority="95" />
+      <Item value="Convert`0" priority="63" />
+      <Item value="tmpString" priority="31" />
+      <Item value="val" priority="31" />
+      <Item value="String`0" priority="95" />
+      <Item value="gameName" priority="95" />
+      <Item value="own3dStreamtastic" priority="31" />
+      <Item value="topStreamersForLeagueOfLegends" priority="31" />
+      <Item value="apiEndpoint" priority="63" />
+      <Item value="StreamFinder`0" priority="31" />
+      <Item value="StreamFinder" priority="28" />
+      <Item value="TwitchtvStreamRepository" priority="28" />
+      <Item value="twitchTvStreamtastic" priority="31" />
+      <Item value="xmlDocument" priority="31" />
+      <Item value="from" priority="31" />
+      <Item value="select" priority="31" />
+      <Item value="ChannelOwner" priority="31" />
+      <Item value="streams" priority="31" />
+      <Item value="Title" priority="31" />
+      <Item value="ViewerCount" priority="32" />
+      <Item value="ThumbnailPreviewUrl" priority="32" />
+      <Item value="ChannelUrl" priority="32" />
+      <Item value="where" priority="31" />
+      <Item value="null" priority="63" />
+      <Item value="streamModel" priority="191" />
+      <Item value="streamElement" priority="159" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:HtmlAgilityPack.HtmlWeb">
+      <Item value="Load`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:HtmlAgilityPack.HtmlDocument">
+      <Item value="DocumentNode" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Streamtastic.Abstract.IStreamRepository">
+      <Item value="FindTopViewedStreams`0" priority="26" />
+      <Item value="FindTopViewedStreamsByGame`0" priority="27" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IEnumerable`1">
+      <Item value="CssSelect`0" priority="80" />
+      <Item value="First`1" priority="296" />
+      <Item value="Where`1" priority="53" />
+      <Item value="ToList`1" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:HtmlAgilityPack.HtmlNode">
+      <Item value="CssSelect`0" priority="243" />
+      <Item value="Elements`0" priority="26" />
+      <Item value="InnerText" priority="162" />
+      <Item value="GetAttributeValue`0" priority="134" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
+      <Item value="Add`0" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Streamtastic.Models.StreamModel">
+      <Item value="Title" priority="53" />
+      <Item value="ChannelOwner" priority="53" />
+      <Item value="ViewerCount" priority="55" />
+      <Item value="ThumbnailPreviewUrl" priority="53" />
+      <Item value="ChannelUrl" priority="80" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.String">
+      <Item value="Trim`0" priority="53" />
+      <Item value="Replace`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Streamtastic.Helpers.SanitizeHelper">
+      <Item value="SanitizeViewCount`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Convert">
+      <Item value="ToInt32`0" priority="108" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="Format`0" priority="80" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Streamtastic.StreamFinder">
+      <Item value="FindTopViewedStreamsByGame`0" priority="49" />
+      <Item value="FindTopViewedStreams`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Xml.Linq.XDocument">
+      <Item value="Load`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Xml.Linq.XDocument">
+      <Item value="Descendants`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Xml.Linq.XElement">
+      <Item value="Element`0" priority="194" />
+      <Item value="Value" priority="110" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="livetemplates.csharp.usevar">True</setting>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+</Configuration>
